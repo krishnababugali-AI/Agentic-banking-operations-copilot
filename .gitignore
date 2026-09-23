@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Runtime-generated application data
+runtime/*.db
+runtime/chroma/*
+!runtime/chroma/.gitkeep
+
+# Logs
+*.log
+logs/
